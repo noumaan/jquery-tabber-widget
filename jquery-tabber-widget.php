@@ -68,7 +68,7 @@ wp_enqueue_script('tabber-widget-js');
 	</div>
 	<div id="tab2" class="tab_content" style="display:none;">
 		<ul>
-<?php if (function_exists('wpp_get_mostpopular')) wpp_get_mostpopular("range=weekly&order_by=avg"); ?>
+<?php if (function_exists('wpp_get_mostpopular')) wpp_get_mostpopular("range=weekly&order_by=avg&stats_comments=0&limit=5"); ?>
 
 		</ul>
 	</div>
